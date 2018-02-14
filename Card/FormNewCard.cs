@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Card
 {
-    public partial class CardSolveForm : Form
+    public partial class FormNewCard : Form
     {
-        public CardSolveForm()
+        public FormNewCard()
         {
             InitializeComponent();
-        }
-
-        private void buttonNew_Click(object sender, EventArgs e)
-        {
-            FormNewCard formNewCard = new FormNewCard();
-            formNewCard.ShowDialog();
         }
     }
 }
